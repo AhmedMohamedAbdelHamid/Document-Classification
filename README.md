@@ -30,9 +30,10 @@ RoBERTa (Robustly Optimized BERT Pretraining Approach) is a variant of BERT desi
 - RoBERTa Val Loss: 0.0804
 
 ## Result
-Best DistilBERT Accuracy: 0.9843
-Best RoBERTa Accuracy: 0.9820
-Best FCNN Accuracy: 0.5169
+
+- Best DistilBERT Accuracy: 0.9843
+- Best RoBERTa Accuracy: 0.9820
+- Best FCNN Accuracy: 0.5169
 
 # Reference
 Source: [Kaggle](https://www.kaggle.com/datasets/alfathterry/bbc-full-text-document-classification)
