@@ -3,16 +3,14 @@
 This repository contains a pipeline for performing text classification using a Transformer-based model powered by Hugging Face's transformers library and PyTorch. The pipeline includes data preprocessing, dataset preparation, model training, evaluation, and visualization tools.
 
 ## Models Overview
-FCNN Model
-Architecture:
+
+### FCNN Model
 Feedforward Convolutional Neural Network (FCNN) with a series of fully connected (dense) layers. This model focuses on leveraging the power of fully connected layers to learn complex representations from the input data without utilizing convolutional or pooling operations.
 
-DistilBERT Model
-Architecture:
+### DistilBERT Model
 DistilBERT is a smaller, more efficient version of the BERT (Bidirectional Encoder Representations from Transformers) model. It uses a transformer architecture, with multiple transformer blocks that include self-attention mechanisms. DistilBERT reduces the size of the original BERT model by half while retaining 97% of its language understanding capabilities. It is optimized for speed and memory efficiency.
 
-RoBERTa Model
-Architecture:
+### RoBERTa Model
 RoBERTa (Robustly Optimized BERT Pretraining Approach) is a variant of BERT designed for improved performance by using dynamic masking and training on larger datasets for more iterations. The architecture is based on the transformer model, specifically designed to improve BERT by using larger mini-batches, more training data, and removing the Next Sentence Prediction task. RoBERTa generally uses more training steps and a larger corpus of data, resulting in a stronger performance on various NLP tasks.
 
 ## Training Performance (Epochs 1-100)
